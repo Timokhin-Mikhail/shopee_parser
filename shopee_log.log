@@ -1,0 +1,1197 @@
+2023-11-06 00:34:58,622: Launching the parser
+2023-11-06 01:11:01,974: Launching the parser
+2023-11-06 01:12:02,123: Launching the parser
+2023-11-06 01:33:01,440: Launching the parser
+2023-11-06 01:33:02,055: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x5643b66205e3 <unknown>
+#1 0x5643b62e30b7 <unknown>
+#2 0x5643b6319e55 <unknown>
+#3 0x5643b6316b81 <unknown>
+#4 0x5643b636147f <unknown>
+#5 0x5643b6357cc3 <unknown>
+#6 0x5643b63230e4 <unknown>
+#7 0x5643b63240ae <unknown>
+#8 0x5643b65e6ce1 <unknown>
+#9 0x5643b65eab7e <unknown>
+#10 0x5643b65d44b5 <unknown>
+#11 0x5643b65eb7d6 <unknown>
+#12 0x5643b65b7dbf <unknown>
+#13 0x5643b660e748 <unknown>
+#14 0x5643b660e917 <unknown>
+#15 0x5643b661f773 <unknown>
+#16 0x7fb5c2694ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main.py", line 40, in <module>
+    driver = webdriver.Chrome(options=options, service=s)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x5643b66205e3 <unknown>
+#1 0x5643b62e30b7 <unknown>
+#2 0x5643b6319e55 <unknown>
+#3 0x5643b6316b81 <unknown>
+#4 0x5643b636147f <unknown>
+#5 0x5643b6357cc3 <unknown>
+#6 0x5643b63230e4 <unknown>
+#7 0x5643b63240ae <unknown>
+#8 0x5643b65e6ce1 <unknown>
+#9 0x5643b65eab7e <unknown>
+#10 0x5643b65d44b5 <unknown>
+#11 0x5643b65eb7d6 <unknown>
+#12 0x5643b65b7dbf <unknown>
+#13 0x5643b660e748 <unknown>
+#14 0x5643b660e917 <unknown>
+#15 0x5643b661f773 <unknown>
+#16 0x7fb5c2694ac3 <unknown>
+
+2023-11-06 01:33:02,056: Completion of work
+2023-11-06 01:35:01,207: Launching the parser
+2023-11-06 01:35:01,823: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55be832d35e3 <unknown>
+#1 0x55be82f960b7 <unknown>
+#2 0x55be82fcce55 <unknown>
+#3 0x55be82fc9b81 <unknown>
+#4 0x55be8301447f <unknown>
+#5 0x55be8300acc3 <unknown>
+#6 0x55be82fd60e4 <unknown>
+#7 0x55be82fd70ae <unknown>
+#8 0x55be83299ce1 <unknown>
+#9 0x55be8329db7e <unknown>
+#10 0x55be832874b5 <unknown>
+#11 0x55be8329e7d6 <unknown>
+#12 0x55be8326adbf <unknown>
+#13 0x55be832c1748 <unknown>
+#14 0x55be832c1917 <unknown>
+#15 0x55be832d2773 <unknown>
+#16 0x7f2ba4294ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main.py", line 40, in <module>
+    driver = webdriver.Chrome(options=options, service=s)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55be832d35e3 <unknown>
+#1 0x55be82f960b7 <unknown>
+#2 0x55be82fcce55 <unknown>
+#3 0x55be82fc9b81 <unknown>
+#4 0x55be8301447f <unknown>
+#5 0x55be8300acc3 <unknown>
+#6 0x55be82fd60e4 <unknown>
+#7 0x55be82fd70ae <unknown>
+#8 0x55be83299ce1 <unknown>
+#9 0x55be8329db7e <unknown>
+#10 0x55be832874b5 <unknown>
+#11 0x55be8329e7d6 <unknown>
+#12 0x55be8326adbf <unknown>
+#13 0x55be832c1748 <unknown>
+#14 0x55be832c1917 <unknown>
+#15 0x55be832d2773 <unknown>
+#16 0x7f2ba4294ac3 <unknown>
+
+2023-11-06 01:35:01,823: Completion of work
+2023-11-06 01:41:01,973: Launching the parser
+2023-11-06 01:41:02,588: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x557fc943c5e3 <unknown>
+#1 0x557fc90ff0b7 <unknown>
+#2 0x557fc9135e55 <unknown>
+#3 0x557fc9132b81 <unknown>
+#4 0x557fc917d47f <unknown>
+#5 0x557fc9173cc3 <unknown>
+#6 0x557fc913f0e4 <unknown>
+#7 0x557fc91400ae <unknown>
+#8 0x557fc9402ce1 <unknown>
+#9 0x557fc9406b7e <unknown>
+#10 0x557fc93f04b5 <unknown>
+#11 0x557fc94077d6 <unknown>
+#12 0x557fc93d3dbf <unknown>
+#13 0x557fc942a748 <unknown>
+#14 0x557fc942a917 <unknown>
+#15 0x557fc943b773 <unknown>
+#16 0x7f48dea94ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main.py", line 42, in <module>
+    driver = webdriver.Chrome(options=options, service=s)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x557fc943c5e3 <unknown>
+#1 0x557fc90ff0b7 <unknown>
+#2 0x557fc9135e55 <unknown>
+#3 0x557fc9132b81 <unknown>
+#4 0x557fc917d47f <unknown>
+#5 0x557fc9173cc3 <unknown>
+#6 0x557fc913f0e4 <unknown>
+#7 0x557fc91400ae <unknown>
+#8 0x557fc9402ce1 <unknown>
+#9 0x557fc9406b7e <unknown>
+#10 0x557fc93f04b5 <unknown>
+#11 0x557fc94077d6 <unknown>
+#12 0x557fc93d3dbf <unknown>
+#13 0x557fc942a748 <unknown>
+#14 0x557fc942a917 <unknown>
+#15 0x557fc943b773 <unknown>
+#16 0x7f48dea94ac3 <unknown>
+
+2023-11-06 01:41:02,589: Completion of work
+2023-11-06 01:43:01,742: Launching the parser
+2023-11-06 01:43:04,140: EOF when reading a line
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main.py", line 54, in <module>
+    input("After authorization, press enter...")
+EOFError: EOF when reading a line
+2023-11-06 01:43:04,140: Completion of work
+2023-11-09 10:11:09,941: Launching the parser
+2023-11-09 10:11:16,930: Completion of work
+2023-11-09 10:11:16,931: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/97277bd81c598b88a40a6a8b3d527991/window
+2023-11-09 10:11:16,932: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3148c6dba0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/97277bd81c598b88a40a6a8b3d527991/window
+2023-11-09 10:11:16,932: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3148c6db40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/97277bd81c598b88a40a6a8b3d527991/window
+2023-11-09 10:11:24,215: Launching the parser
+2023-11-09 10:13:27,516: Start of parsing
+2023-11-09 10:13:27,516: Parsing sony headphones
+2023-11-09 10:14:31,395: Go to the next page (page 2)
+2023-11-09 10:14:53,783: Go to the next page (page 3)
+2023-11-09 10:15:16,164: Go to the next page (page 4)
+2023-11-09 10:15:38,858: Go to the next page (page 5)
+2023-11-09 10:16:01,382: Go to the next page (page 6)
+2023-11-09 10:16:23,418: Go to the next page (page 7)
+2023-11-09 10:16:45,925: Go to the next page (page 8)
+2023-11-09 10:17:08,778: Go to the next page (page 9)
+2023-11-09 10:17:21,380: Item position not found
+2023-11-09 10:17:21,380: Go to the search for the next product (if available)
+2023-11-09 10:17:21,380: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:17:37,870: Item position not found
+2023-11-09 10:17:37,870: Go to the search for the next product (if available)
+2023-11-09 10:17:37,870: Parsing pull bar
+2023-11-09 10:18:08,516: Go to the next page (page 2)
+2023-11-09 10:18:20,420: Item position found: 67
+2023-11-09 10:18:20,420: Go to the search for the next product (if available)
+2023-11-09 10:18:20,420: Item position not found
+2023-11-09 10:18:20,420: Go to the search for the next product (if available)
+2023-11-09 10:18:20,427: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:18:21,889: Parsing sony headphones
+2023-11-09 10:18:52,397: Go to the next page (page 2)
+2023-11-09 10:19:14,845: Go to the next page (page 3)
+2023-11-09 10:19:37,303: Go to the next page (page 4)
+2023-11-09 10:20:00,199: Go to the next page (page 5)
+2023-11-09 10:20:23,152: Go to the next page (page 6)
+2023-11-09 10:20:45,815: Go to the next page (page 7)
+2023-11-09 10:21:08,754: Go to the next page (page 8)
+2023-11-09 10:21:31,545: Go to the next page (page 9)
+2023-11-09 10:21:44,547: Item position not found
+2023-11-09 10:21:44,547: Go to the search for the next product (if available)
+2023-11-09 10:21:44,547: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:22:01,402: Item position not found
+2023-11-09 10:22:01,402: Go to the search for the next product (if available)
+2023-11-09 10:22:01,402: Parsing pull bar
+2023-11-09 10:22:32,706: Go to the next page (page 2)
+2023-11-09 10:22:45,246: Item position found: 75
+2023-11-09 10:22:45,247: Go to the search for the next product (if available)
+2023-11-09 10:22:45,247: Item position not found
+2023-11-09 10:22:45,247: Go to the search for the next product (if available)
+2023-11-09 10:22:45,248: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:22:46,211: Parsing sony headphones
+2023-11-09 10:23:17,804: Go to the next page (page 2)
+2023-11-09 10:23:40,545: Go to the next page (page 3)
+2023-11-09 10:24:03,171: Go to the next page (page 4)
+2023-11-09 10:24:26,073: Go to the next page (page 5)
+2023-11-09 10:24:53,747: Go to the next page (page 6)
+2023-11-09 10:25:16,096: Go to the next page (page 7)
+2023-11-09 10:25:38,928: Go to the next page (page 8)
+2023-11-09 10:26:01,689: Go to the next page (page 9)
+2023-11-09 10:26:14,973: Item position not found
+2023-11-09 10:26:14,973: Go to the search for the next product (if available)
+2023-11-09 10:26:14,973: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:26:31,761: Item position not found
+2023-11-09 10:26:31,761: Go to the search for the next product (if available)
+2023-11-09 10:26:31,761: Parsing pull bar
+2023-11-09 10:27:02,796: Go to the next page (page 2)
+2023-11-09 10:27:15,607: Item position found: 75
+2023-11-09 10:27:15,607: Go to the search for the next product (if available)
+2023-11-09 10:27:15,607: Item position not found
+2023-11-09 10:27:15,607: Go to the search for the next product (if available)
+2023-11-09 10:27:15,608: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:27:16,721: Parsing sony headphones
+2023-11-09 10:27:47,492: Go to the next page (page 2)
+2023-11-09 10:28:10,172: Go to the next page (page 3)
+2023-11-09 10:28:33,292: Go to the next page (page 4)
+2023-11-09 10:28:56,788: Go to the next page (page 5)
+2023-11-09 10:29:19,638: Go to the next page (page 6)
+2023-11-09 10:29:42,471: Go to the next page (page 7)
+2023-11-09 10:30:05,743: Go to the next page (page 8)
+2023-11-09 10:30:28,489: Go to the next page (page 9)
+2023-11-09 10:30:41,673: Item position not found
+2023-11-09 10:30:41,673: Go to the search for the next product (if available)
+2023-11-09 10:30:41,673: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:30:58,584: Item position not found
+2023-11-09 10:30:58,584: Go to the search for the next product (if available)
+2023-11-09 10:30:58,584: Parsing pull bar
+2023-11-09 10:31:29,324: Go to the next page (page 2)
+2023-11-09 10:31:41,678: Item position found: 75
+2023-11-09 10:31:41,679: Go to the search for the next product (if available)
+2023-11-09 10:31:41,679: Item position not found
+2023-11-09 10:31:41,679: Go to the search for the next product (if available)
+2023-11-09 10:31:41,680: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:31:42,578: Parsing sony headphones
+2023-11-09 10:32:13,516: Go to the next page (page 2)
+2023-11-09 10:32:36,342: Go to the next page (page 3)
+2023-11-09 10:32:59,404: Go to the next page (page 4)
+2023-11-09 10:33:22,893: Go to the next page (page 5)
+2023-11-09 10:33:45,737: Go to the next page (page 6)
+2023-11-09 10:34:08,819: Go to the next page (page 7)
+2023-11-09 10:34:32,428: Go to the next page (page 8)
+2023-11-09 10:34:55,701: Go to the next page (page 9)
+2023-11-09 10:35:08,848: Item position not found
+2023-11-09 10:35:08,848: Go to the search for the next product (if available)
+2023-11-09 10:35:08,848: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:35:25,423: Item position not found
+2023-11-09 10:35:25,423: Go to the search for the next product (if available)
+2023-11-09 10:35:25,423: Parsing pull bar
+2023-11-09 10:35:56,387: Go to the next page (page 2)
+2023-11-09 10:36:09,094: Item position found: 75
+2023-11-09 10:36:09,094: Go to the search for the next product (if available)
+2023-11-09 10:36:09,094: Item position not found
+2023-11-09 10:36:09,094: Go to the search for the next product (if available)
+2023-11-09 10:36:09,095: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:36:10,202: Parsing sony headphones
+2023-11-09 10:36:41,148: Go to the next page (page 2)
+2023-11-09 10:37:03,838: Go to the next page (page 3)
+2023-11-09 10:37:26,570: Go to the next page (page 4)
+2023-11-09 10:37:49,493: Go to the next page (page 5)
+2023-11-09 10:38:12,805: Go to the next page (page 6)
+2023-11-09 10:38:35,916: Go to the next page (page 7)
+2023-11-09 10:38:59,154: Go to the next page (page 8)
+2023-11-09 10:39:21,649: Go to the next page (page 9)
+2023-11-09 10:39:35,353: Item position not found
+2023-11-09 10:39:35,353: Go to the search for the next product (if available)
+2023-11-09 10:39:35,353: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:39:52,331: Item position not found
+2023-11-09 10:39:52,331: Go to the search for the next product (if available)
+2023-11-09 10:39:52,331: Parsing pull bar
+2023-11-09 10:40:23,795: Go to the next page (page 2)
+2023-11-09 10:40:36,925: Item position found: 75
+2023-11-09 10:40:36,925: Go to the search for the next product (if available)
+2023-11-09 10:40:36,925: Item position not found
+2023-11-09 10:40:36,925: Go to the search for the next product (if available)
+2023-11-09 10:40:36,926: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:40:37,758: Parsing sony headphones
+2023-11-09 10:41:08,694: Go to the next page (page 2)
+2023-11-09 10:41:31,375: Go to the next page (page 3)
+2023-11-09 10:41:54,319: Go to the next page (page 4)
+2023-11-09 10:42:17,480: Go to the next page (page 5)
+2023-11-09 10:42:40,484: Go to the next page (page 6)
+2023-11-09 10:43:03,383: Go to the next page (page 7)
+2023-11-09 10:43:26,440: Go to the next page (page 8)
+2023-11-09 10:43:49,560: Go to the next page (page 9)
+2023-11-09 10:44:03,713: Item position not found
+2023-11-09 10:44:03,713: Go to the search for the next product (if available)
+2023-11-09 10:44:03,713: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:44:20,726: Item position not found
+2023-11-09 10:44:20,726: Go to the search for the next product (if available)
+2023-11-09 10:44:20,726: Parsing pull bar
+2023-11-09 10:44:51,780: Go to the next page (page 2)
+2023-11-09 10:45:04,669: Item position found: 75
+2023-11-09 10:45:04,669: Go to the search for the next product (if available)
+2023-11-09 10:45:04,669: Item position not found
+2023-11-09 10:45:04,669: Go to the search for the next product (if available)
+2023-11-09 10:45:04,670: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:45:05,712: Parsing sony headphones
+2023-11-09 10:45:36,576: Go to the next page (page 2)
+2023-11-09 10:45:59,661: Go to the next page (page 3)
+2023-11-09 10:46:22,597: Go to the next page (page 4)
+2023-11-09 10:46:45,752: Go to the next page (page 5)
+2023-11-09 10:47:09,021: Go to the next page (page 6)
+2023-11-09 10:47:32,048: Go to the next page (page 7)
+2023-11-09 10:47:55,658: Go to the next page (page 8)
+2023-11-09 10:48:18,800: Go to the next page (page 9)
+2023-11-09 10:48:32,190: Item position not found
+2023-11-09 10:48:32,190: Go to the search for the next product (if available)
+2023-11-09 10:48:32,190: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:48:49,434: Item position not found
+2023-11-09 10:48:49,434: Go to the search for the next product (if available)
+2023-11-09 10:48:49,434: Parsing pull bar
+2023-11-09 10:49:20,580: Go to the next page (page 2)
+2023-11-09 10:49:33,339: Item position found: 75
+2023-11-09 10:49:33,339: Go to the search for the next product (if available)
+2023-11-09 10:49:33,339: Item position not found
+2023-11-09 10:49:33,339: Go to the search for the next product (if available)
+2023-11-09 10:49:33,340: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:49:34,317: Parsing sony headphones
+2023-11-09 10:50:05,674: Go to the next page (page 2)
+2023-11-09 10:50:28,856: Go to the next page (page 3)
+2023-11-09 10:50:52,146: Go to the next page (page 4)
+2023-11-09 10:51:15,444: Go to the next page (page 5)
+2023-11-09 10:51:38,448: Go to the next page (page 6)
+2023-11-09 10:52:01,372: Go to the next page (page 7)
+2023-11-09 10:52:24,544: Go to the next page (page 8)
+2023-11-09 10:52:47,893: Go to the next page (page 9)
+2023-11-09 10:53:01,385: Item position not found
+2023-11-09 10:53:01,385: Go to the search for the next product (if available)
+2023-11-09 10:53:01,385: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:53:18,643: Item position not found
+2023-11-09 10:53:18,643: Go to the search for the next product (if available)
+2023-11-09 10:53:18,643: Parsing pull bar
+2023-11-09 10:53:50,293: Go to the next page (page 2)
+2023-11-09 10:54:03,228: Item position found: 75
+2023-11-09 10:54:03,228: Go to the search for the next product (if available)
+2023-11-09 10:54:03,228: Item position not found
+2023-11-09 10:54:03,228: Go to the search for the next product (if available)
+2023-11-09 10:54:03,229: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:54:04,326: Parsing sony headphones
+2023-11-09 10:54:35,529: Go to the next page (page 2)
+2023-11-09 10:54:58,888: Go to the next page (page 3)
+2023-11-09 10:55:22,079: Go to the next page (page 4)
+2023-11-09 10:55:45,390: Go to the next page (page 5)
+2023-11-09 10:56:08,627: Go to the next page (page 6)
+2023-11-09 10:56:31,590: Go to the next page (page 7)
+2023-11-09 10:56:54,751: Go to the next page (page 8)
+2023-11-09 10:57:18,125: Go to the next page (page 9)
+2023-11-09 10:57:31,467: Item position not found
+2023-11-09 10:57:31,467: Go to the search for the next product (if available)
+2023-11-09 10:57:31,467: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 10:57:48,743: Item position not found
+2023-11-09 10:57:48,743: Go to the search for the next product (if available)
+2023-11-09 10:57:48,743: Parsing pull bar
+2023-11-09 10:58:19,970: Go to the next page (page 2)
+2023-11-09 10:58:32,818: Item position found: 75
+2023-11-09 10:58:32,819: Go to the search for the next product (if available)
+2023-11-09 10:58:32,819: Item position not found
+2023-11-09 10:58:32,819: Go to the search for the next product (if available)
+2023-11-09 10:58:32,820: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 10:58:33,607: Parsing sony headphones
+2023-11-09 10:59:05,077: Go to the next page (page 2)
+2023-11-09 10:59:28,281: Go to the next page (page 3)
+2023-11-09 10:59:51,050: Go to the next page (page 4)
+2023-11-09 11:00:14,902: Go to the next page (page 5)
+2023-11-09 11:00:38,178: Go to the next page (page 6)
+2023-11-09 11:01:01,107: Go to the next page (page 7)
+2023-11-09 11:01:24,380: Go to the next page (page 8)
+2023-11-09 11:01:47,912: Go to the next page (page 9)
+2023-11-09 11:02:01,512: Item position not found
+2023-11-09 11:02:01,512: Go to the search for the next product (if available)
+2023-11-09 11:02:01,512: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:02:18,895: Item position not found
+2023-11-09 11:02:18,896: Go to the search for the next product (if available)
+2023-11-09 11:02:18,896: Parsing pull bar
+2023-11-09 11:02:50,719: Go to the next page (page 2)
+2023-11-09 11:03:03,982: Item position found: 75
+2023-11-09 11:03:03,982: Go to the search for the next product (if available)
+2023-11-09 11:03:03,982: Item position not found
+2023-11-09 11:03:03,982: Go to the search for the next product (if available)
+2023-11-09 11:03:03,984: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:03:04,990: Parsing sony headphones
+2023-11-09 11:03:36,457: Go to the next page (page 2)
+2023-11-09 11:03:59,385: Go to the next page (page 3)
+2023-11-09 11:04:22,727: Go to the next page (page 4)
+2023-11-09 11:04:45,836: Go to the next page (page 5)
+2023-11-09 11:05:09,117: Go to the next page (page 6)
+2023-11-09 11:05:32,122: Go to the next page (page 7)
+2023-11-09 11:05:56,021: Go to the next page (page 8)
+2023-11-09 11:06:19,344: Go to the next page (page 9)
+2023-11-09 11:06:32,821: Item position not found
+2023-11-09 11:06:32,821: Go to the search for the next product (if available)
+2023-11-09 11:06:32,821: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:06:50,098: Item position not found
+2023-11-09 11:06:50,098: Go to the search for the next product (if available)
+2023-11-09 11:06:50,098: Parsing pull bar
+2023-11-09 11:07:21,892: Go to the next page (page 2)
+2023-11-09 11:07:34,143: Item position found: 75
+2023-11-09 11:07:34,143: Go to the search for the next product (if available)
+2023-11-09 11:07:34,143: Item position not found
+2023-11-09 11:07:34,143: Go to the search for the next product (if available)
+2023-11-09 11:07:34,144: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:07:34,958: Parsing sony headphones
+2023-11-09 11:08:05,602: Go to the next page (page 2)
+2023-11-09 11:08:28,728: Go to the next page (page 3)
+2023-11-09 11:08:51,976: Go to the next page (page 4)
+2023-11-09 11:09:15,634: Go to the next page (page 5)
+2023-11-09 11:09:38,763: Go to the next page (page 6)
+2023-11-09 11:10:02,273: Go to the next page (page 7)
+2023-11-09 11:10:25,440: Go to the next page (page 8)
+2023-11-09 11:10:48,859: Go to the next page (page 9)
+2023-11-09 11:11:00,850: Completion of work
+2023-11-09 11:11:00,851: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/10f1c7ca8e6f5651b4943f9e0efcbcf3/window
+2023-11-09 11:11:00,851: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f061c6d46a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10f1c7ca8e6f5651b4943f9e0efcbcf3/window
+2023-11-09 11:11:00,851: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f061c6d4d30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10f1c7ca8e6f5651b4943f9e0efcbcf3/window
+2023-11-09 11:12:55,229: Launching the parser
+2023-11-09 11:13:33,034: Start of parsing
+2023-11-09 11:13:33,034: Parsing sony headphones
+2023-11-09 11:13:55,650: Go to the next page (page 2)
+2023-11-09 11:14:03,428: Go to the next page (page 3)
+2023-11-09 11:14:11,465: Go to the next page (page 4)
+2023-11-09 11:14:20,312: Go to the next page (page 5)
+2023-11-09 11:14:28,448: Go to the next page (page 6)
+2023-11-09 11:14:36,719: Go to the next page (page 7)
+2023-11-09 11:14:45,717: Go to the next page (page 8)
+2023-11-09 11:14:54,582: Go to the next page (page 9)
+2023-11-09 11:15:02,267: Item position not found
+2023-11-09 11:15:02,267: Go to the search for the next product (if available)
+2023-11-09 11:15:02,267: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:15:10,627: Item position not found
+2023-11-09 11:15:10,627: Go to the search for the next product (if available)
+2023-11-09 11:15:10,627: Parsing pull bar
+2023-11-09 11:15:22,118: Go to the next page (page 2)
+2023-11-09 11:15:29,087: Item position found: 75
+2023-11-09 11:15:29,087: Go to the search for the next product (if available)
+2023-11-09 11:15:29,087: Item position not found
+2023-11-09 11:15:29,087: Go to the search for the next product (if available)
+2023-11-09 11:15:29,089: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:15:30,418: Parsing sony headphones
+2023-11-09 11:15:42,678: Go to the next page (page 2)
+2023-11-09 11:15:51,819: Go to the next page (page 3)
+2023-11-09 11:16:00,508: Go to the next page (page 4)
+2023-11-09 11:16:09,362: Go to the next page (page 5)
+2023-11-09 11:16:18,563: Go to the next page (page 6)
+2023-11-09 11:16:27,301: Go to the next page (page 7)
+2023-11-09 11:16:35,873: Go to the next page (page 8)
+2023-11-09 11:16:44,834: Go to the next page (page 9)
+2023-11-09 11:16:53,299: Item position not found
+2023-11-09 11:16:53,299: Go to the search for the next product (if available)
+2023-11-09 11:16:53,299: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:17:02,760: Item position not found
+2023-11-09 11:17:02,760: Go to the search for the next product (if available)
+2023-11-09 11:17:02,761: Parsing pull bar
+2023-11-09 11:17:15,364: Go to the next page (page 2)
+2023-11-09 11:17:23,040: Item position found: 75
+2023-11-09 11:17:23,040: Go to the search for the next product (if available)
+2023-11-09 11:17:23,040: Item position not found
+2023-11-09 11:17:23,040: Go to the search for the next product (if available)
+2023-11-09 11:17:23,041: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:17:23,916: Parsing sony headphones
+2023-11-09 11:17:37,128: Go to the next page (page 2)
+2023-11-09 11:17:46,547: Go to the next page (page 3)
+2023-11-09 11:17:55,863: Go to the next page (page 4)
+2023-11-09 11:18:05,296: Go to the next page (page 5)
+2023-11-09 11:18:14,911: Go to the next page (page 6)
+2023-11-09 11:18:24,287: Go to the next page (page 7)
+2023-11-09 11:18:34,046: Go to the next page (page 8)
+2023-11-09 11:18:43,479: Go to the next page (page 9)
+2023-11-09 11:18:53,034: Item position not found
+2023-11-09 11:18:53,034: Go to the search for the next product (if available)
+2023-11-09 11:18:53,034: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:19:03,522: Item position not found
+2023-11-09 11:19:03,522: Go to the search for the next product (if available)
+2023-11-09 11:19:03,522: Parsing pull bar
+2023-11-09 11:19:16,999: Go to the next page (page 2)
+2023-11-09 11:19:25,123: Item position found: 75
+2023-11-09 11:19:25,123: Go to the search for the next product (if available)
+2023-11-09 11:19:25,123: Item position not found
+2023-11-09 11:19:25,123: Go to the search for the next product (if available)
+2023-11-09 11:19:25,124: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:19:26,114: Parsing sony headphones
+2023-11-09 11:19:40,490: Go to the next page (page 2)
+2023-11-09 11:19:50,220: Go to the next page (page 3)
+2023-11-09 11:20:00,036: Go to the next page (page 4)
+2023-11-09 11:20:10,087: Go to the next page (page 5)
+2023-11-09 11:20:19,692: Go to the next page (page 6)
+2023-11-09 11:20:29,725: Go to the next page (page 7)
+2023-11-09 11:20:39,710: Go to the next page (page 8)
+2023-11-09 11:20:50,109: Go to the next page (page 9)
+2023-11-09 11:20:59,538: Item position not found
+2023-11-09 11:20:59,538: Go to the search for the next product (if available)
+2023-11-09 11:20:59,538: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:21:10,332: Item position not found
+2023-11-09 11:21:10,332: Go to the search for the next product (if available)
+2023-11-09 11:21:10,332: Parsing pull bar
+2023-11-09 11:21:24,974: Go to the next page (page 2)
+2023-11-09 11:21:33,124: Item position found: 75
+2023-11-09 11:21:33,124: Go to the search for the next product (if available)
+2023-11-09 11:21:33,124: Item position not found
+2023-11-09 11:21:33,124: Go to the search for the next product (if available)
+2023-11-09 11:21:33,125: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:21:33,904: Parsing sony headphones
+2023-11-09 11:21:49,006: Go to the next page (page 2)
+2023-11-09 11:21:58,852: Go to the next page (page 3)
+2023-11-09 11:22:08,838: Go to the next page (page 4)
+2023-11-09 11:22:18,652: Go to the next page (page 5)
+2023-11-09 11:22:29,078: Go to the next page (page 6)
+2023-11-09 11:22:39,147: Go to the next page (page 7)
+2023-11-09 11:22:49,773: Go to the next page (page 8)
+2023-11-09 11:23:00,307: Go to the next page (page 9)
+2023-11-09 11:23:10,060: Item position not found
+2023-11-09 11:23:10,060: Go to the search for the next product (if available)
+2023-11-09 11:23:10,060: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:23:21,608: Item position not found
+2023-11-09 11:23:21,608: Go to the search for the next product (if available)
+2023-11-09 11:23:21,608: Parsing pull bar
+2023-11-09 11:23:36,412: Go to the next page (page 2)
+2023-11-09 11:23:45,553: Item position found: 74
+2023-11-09 11:23:45,553: Go to the search for the next product (if available)
+2023-11-09 11:23:45,553: Item position not found
+2023-11-09 11:23:45,553: Go to the search for the next product (if available)
+2023-11-09 11:23:45,555: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:23:46,643: Parsing sony headphones
+2023-11-09 11:24:02,848: Go to the next page (page 2)
+2023-11-09 11:24:13,198: Go to the next page (page 3)
+2023-11-09 11:24:23,670: Go to the next page (page 4)
+2023-11-09 11:24:33,823: Go to the next page (page 5)
+2023-11-09 11:24:44,187: Go to the next page (page 6)
+2023-11-09 11:24:55,136: Go to the next page (page 7)
+2023-11-09 11:25:05,814: Go to the next page (page 8)
+2023-11-09 11:25:16,405: Go to the next page (page 9)
+2023-11-09 11:25:26,470: Item position not found
+2023-11-09 11:25:26,470: Go to the search for the next product (if available)
+2023-11-09 11:25:26,470: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:25:38,891: Item position not found
+2023-11-09 11:25:38,891: Go to the search for the next product (if available)
+2023-11-09 11:25:38,891: Parsing pull bar
+2023-11-09 11:25:55,132: Go to the next page (page 2)
+2023-11-09 11:26:04,846: Item position found: 74
+2023-11-09 11:26:04,846: Go to the search for the next product (if available)
+2023-11-09 11:26:04,846: Item position not found
+2023-11-09 11:26:04,846: Go to the search for the next product (if available)
+2023-11-09 11:26:04,848: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:26:05,668: Parsing sony headphones
+2023-11-09 11:26:22,177: Go to the next page (page 2)
+2023-11-09 11:26:33,159: Go to the next page (page 3)
+2023-11-09 11:26:43,808: Go to the next page (page 4)
+2023-11-09 11:26:54,385: Go to the next page (page 5)
+2023-11-09 11:27:04,954: Go to the next page (page 6)
+2023-11-09 11:27:15,399: Go to the next page (page 7)
+2023-11-09 11:27:26,415: Go to the next page (page 8)
+2023-11-09 11:27:37,227: Go to the next page (page 9)
+2023-11-09 11:27:47,368: Item position not found
+2023-11-09 11:27:47,368: Go to the search for the next product (if available)
+2023-11-09 11:27:47,368: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:28:00,832: Item position not found
+2023-11-09 11:28:00,832: Go to the search for the next product (if available)
+2023-11-09 11:28:00,832: Parsing pull bar
+2023-11-09 11:28:17,762: Go to the next page (page 2)
+2023-11-09 11:28:27,021: Item position found: 74
+2023-11-09 11:28:27,022: Go to the search for the next product (if available)
+2023-11-09 11:28:27,022: Item position not found
+2023-11-09 11:28:27,022: Go to the search for the next product (if available)
+2023-11-09 11:28:27,023: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:28:27,957: Parsing sony headphones
+2023-11-09 11:28:46,036: Go to the next page (page 2)
+2023-11-09 11:28:57,263: Go to the next page (page 3)
+2023-11-09 11:29:08,694: Go to the next page (page 4)
+2023-11-09 11:29:19,787: Go to the next page (page 5)
+2023-11-09 11:29:30,556: Go to the next page (page 6)
+2023-11-09 11:29:42,747: Go to the next page (page 7)
+2023-11-09 11:29:54,372: Go to the next page (page 8)
+2023-11-09 11:30:05,462: Go to the next page (page 9)
+2023-11-09 11:30:16,095: Item position not found
+2023-11-09 11:30:16,095: Go to the search for the next product (if available)
+2023-11-09 11:30:16,095: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:30:29,597: Item position not found
+2023-11-09 11:30:29,597: Go to the search for the next product (if available)
+2023-11-09 11:30:29,597: Parsing pull bar
+2023-11-09 11:30:46,978: Go to the next page (page 2)
+2023-11-09 11:30:56,403: Item position found: 74
+2023-11-09 11:30:56,403: Go to the search for the next product (if available)
+2023-11-09 11:30:56,403: Item position not found
+2023-11-09 11:30:56,403: Go to the search for the next product (if available)
+2023-11-09 11:30:56,404: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:30:57,362: Parsing sony headphones
+2023-11-09 11:31:14,936: Go to the next page (page 2)
+2023-11-09 11:31:25,097: Go to the next page (page 3)
+2023-11-09 11:31:36,110: Go to the next page (page 4)
+2023-11-09 11:31:46,701: Go to the next page (page 5)
+2023-11-09 11:31:56,960: Go to the next page (page 6)
+2023-11-09 11:32:08,401: Go to the next page (page 7)
+2023-11-09 11:32:19,621: Go to the next page (page 8)
+2023-11-09 11:32:30,985: Go to the next page (page 9)
+2023-11-09 11:32:41,996: Item position not found
+2023-11-09 11:32:41,996: Go to the search for the next product (if available)
+2023-11-09 11:32:41,996: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:32:56,360: Item position not found
+2023-11-09 11:32:56,360: Go to the search for the next product (if available)
+2023-11-09 11:32:56,360: Parsing pull bar
+2023-11-09 11:33:15,824: Go to the next page (page 2)
+2023-11-09 11:33:25,608: Item position found: 74
+2023-11-09 11:33:25,609: Go to the search for the next product (if available)
+2023-11-09 11:33:25,609: Item position not found
+2023-11-09 11:33:25,609: Go to the search for the next product (if available)
+2023-11-09 11:33:25,610: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:33:26,501: Parsing sony headphones
+2023-11-09 11:33:44,865: Go to the next page (page 2)
+2023-11-09 11:33:56,086: Go to the next page (page 3)
+2023-11-09 11:34:08,305: Go to the next page (page 4)
+2023-11-09 11:34:19,248: Go to the next page (page 5)
+2023-11-09 11:34:30,152: Go to the next page (page 6)
+2023-11-09 11:34:41,561: Go to the next page (page 7)
+2023-11-09 11:34:53,632: Go to the next page (page 8)
+2023-11-09 11:35:05,659: Go to the next page (page 9)
+2023-11-09 11:35:16,655: Item position not found
+2023-11-09 11:35:16,655: Go to the search for the next product (if available)
+2023-11-09 11:35:16,655: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:35:31,844: Item position not found
+2023-11-09 11:35:31,844: Go to the search for the next product (if available)
+2023-11-09 11:35:31,844: Parsing pull bar
+2023-11-09 11:35:51,253: Go to the next page (page 2)
+2023-11-09 11:36:00,935: Item position found: 74
+2023-11-09 11:36:00,935: Go to the search for the next product (if available)
+2023-11-09 11:36:00,935: Item position not found
+2023-11-09 11:36:00,935: Go to the search for the next product (if available)
+2023-11-09 11:36:00,936: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:36:02,011: Parsing sony headphones
+2023-11-09 11:36:21,371: Go to the next page (page 2)
+2023-11-09 11:36:32,548: Go to the next page (page 3)
+2023-11-09 11:36:43,762: Go to the next page (page 4)
+2023-11-09 11:36:55,964: Go to the next page (page 5)
+2023-11-09 11:37:07,363: Go to the next page (page 6)
+2023-11-09 11:37:18,827: Go to the next page (page 7)
+2023-11-09 11:37:30,364: Go to the next page (page 8)
+2023-11-09 11:37:42,216: Go to the next page (page 9)
+2023-11-09 11:37:52,741: Item position not found
+2023-11-09 11:37:52,741: Go to the search for the next product (if available)
+2023-11-09 11:37:52,741: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:38:07,683: Item position not found
+2023-11-09 11:38:07,683: Go to the search for the next product (if available)
+2023-11-09 11:38:07,683: Parsing pull bar
+2023-11-09 11:38:27,146: Go to the next page (page 2)
+2023-11-09 11:38:37,258: Item position found: 74
+2023-11-09 11:38:37,258: Go to the search for the next product (if available)
+2023-11-09 11:38:37,258: Item position not found
+2023-11-09 11:38:37,258: Go to the search for the next product (if available)
+2023-11-09 11:38:37,259: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:38:38,168: Parsing sony headphones
+2023-11-09 11:38:59,040: Go to the next page (page 2)
+2023-11-09 11:39:11,032: Go to the next page (page 3)
+2023-11-09 11:39:22,186: Go to the next page (page 4)
+2023-11-09 11:39:33,751: Go to the next page (page 5)
+2023-11-09 11:39:46,395: Go to the next page (page 6)
+2023-11-09 11:39:57,876: Go to the next page (page 7)
+2023-11-09 11:40:09,350: Go to the next page (page 8)
+2023-11-09 11:40:21,465: Go to the next page (page 9)
+2023-11-09 11:40:33,010: Item position not found
+2023-11-09 11:40:33,010: Go to the search for the next product (if available)
+2023-11-09 11:40:33,010: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:40:48,934: Item position not found
+2023-11-09 11:40:48,934: Go to the search for the next product (if available)
+2023-11-09 11:40:48,934: Parsing pull bar
+2023-11-09 11:41:09,374: Go to the next page (page 2)
+2023-11-09 11:41:19,301: Item position found: 74
+2023-11-09 11:41:19,301: Go to the search for the next product (if available)
+2023-11-09 11:41:19,301: Item position not found
+2023-11-09 11:41:19,301: Go to the search for the next product (if available)
+2023-11-09 11:41:19,303: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:41:20,333: Parsing sony headphones
+2023-11-09 11:41:41,014: Go to the next page (page 2)
+2023-11-09 11:41:53,280: Go to the next page (page 3)
+2023-11-09 11:42:13,740: Go to the next page (page 4)
+2023-11-09 11:43:02,414: Go to the next page (page 5)
+2023-11-09 11:43:15,567: Go to the next page (page 6)
+2023-11-09 11:43:27,200: Go to the next page (page 7)
+2023-11-09 11:43:40,279: Go to the next page (page 8)
+2023-11-09 11:43:52,364: Go to the next page (page 9)
+2023-11-09 11:44:03,017: Item position not found
+2023-11-09 11:44:03,017: Go to the search for the next product (if available)
+2023-11-09 11:44:03,017: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:44:19,512: Item position not found
+2023-11-09 11:44:19,512: Go to the search for the next product (if available)
+2023-11-09 11:44:19,512: Parsing pull bar
+2023-11-09 11:44:40,187: Go to the next page (page 2)
+2023-11-09 11:44:50,135: Item position found: 74
+2023-11-09 11:44:50,135: Go to the search for the next product (if available)
+2023-11-09 11:44:50,135: Item position not found
+2023-11-09 11:44:50,135: Go to the search for the next product (if available)
+2023-11-09 11:44:50,136: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:44:50,951: Parsing sony headphones
+2023-11-09 11:45:12,630: Go to the next page (page 2)
+2023-11-09 11:45:23,976: Go to the next page (page 3)
+2023-11-09 11:45:35,899: Go to the next page (page 4)
+2023-11-09 11:45:47,948: Go to the next page (page 5)
+2023-11-09 11:45:59,660: Go to the next page (page 6)
+2023-11-09 11:46:12,100: Go to the next page (page 7)
+2023-11-09 11:46:24,371: Go to the next page (page 8)
+2023-11-09 11:46:36,708: Go to the next page (page 9)
+2023-11-09 11:46:48,420: Item position not found
+2023-11-09 11:46:48,420: Go to the search for the next product (if available)
+2023-11-09 11:46:48,420: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:47:05,272: Item position not found
+2023-11-09 11:47:05,272: Go to the search for the next product (if available)
+2023-11-09 11:47:05,272: Parsing pull bar
+2023-11-09 11:47:26,148: Go to the next page (page 2)
+2023-11-09 11:47:36,643: Item position found: 75
+2023-11-09 11:47:36,643: Go to the search for the next product (if available)
+2023-11-09 11:47:36,643: Item position not found
+2023-11-09 11:47:36,643: Go to the search for the next product (if available)
+2023-11-09 11:47:36,644: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:47:37,671: Parsing sony headphones
+2023-11-09 11:47:59,563: Go to the next page (page 2)
+2023-11-09 11:48:11,855: Go to the next page (page 3)
+2023-11-09 11:48:24,395: Go to the next page (page 4)
+2023-11-09 11:48:36,794: Go to the next page (page 5)
+2023-11-09 11:48:49,466: Go to the next page (page 6)
+2023-11-09 11:49:01,956: Go to the next page (page 7)
+2023-11-09 11:49:14,095: Go to the next page (page 8)
+2023-11-09 11:49:26,401: Go to the next page (page 9)
+2023-11-09 11:49:38,038: Item position not found
+2023-11-09 11:49:38,038: Go to the search for the next product (if available)
+2023-11-09 11:49:38,038: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:49:55,319: Item position not found
+2023-11-09 11:49:55,319: Go to the search for the next product (if available)
+2023-11-09 11:49:55,319: Parsing pull bar
+2023-11-09 11:50:16,351: Go to the next page (page 2)
+2023-11-09 11:50:27,036: Item position found: 75
+2023-11-09 11:50:27,036: Go to the search for the next product (if available)
+2023-11-09 11:50:27,036: Item position not found
+2023-11-09 11:50:27,036: Go to the search for the next product (if available)
+2023-11-09 11:50:27,037: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:50:28,019: Parsing sony headphones
+2023-11-09 11:50:49,763: Go to the next page (page 2)
+2023-11-09 11:51:02,116: Go to the next page (page 3)
+2023-11-09 11:51:14,586: Go to the next page (page 4)
+2023-11-09 11:51:26,958: Go to the next page (page 5)
+2023-11-09 11:51:39,561: Go to the next page (page 6)
+2023-11-09 11:51:52,064: Go to the next page (page 7)
+2023-11-09 11:52:04,228: Go to the next page (page 8)
+2023-11-09 11:52:16,748: Go to the next page (page 9)
+2023-11-09 11:52:27,677: Item position not found
+2023-11-09 11:52:27,677: Go to the search for the next product (if available)
+2023-11-09 11:52:27,677: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:52:45,296: Item position not found
+2023-11-09 11:52:45,296: Go to the search for the next product (if available)
+2023-11-09 11:52:45,296: Parsing pull bar
+2023-11-09 11:53:07,048: Go to the next page (page 2)
+2023-11-09 11:53:17,222: Item position found: 75
+2023-11-09 11:53:17,222: Go to the search for the next product (if available)
+2023-11-09 11:53:17,222: Item position not found
+2023-11-09 11:53:17,222: Go to the search for the next product (if available)
+2023-11-09 11:53:17,224: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:53:18,093: Parsing sony headphones
+2023-11-09 11:53:40,524: Go to the next page (page 2)
+2023-11-09 11:53:53,884: Go to the next page (page 3)
+2023-11-09 11:54:05,880: Go to the next page (page 4)
+2023-11-09 11:54:18,650: Go to the next page (page 5)
+2023-11-09 11:54:31,382: Go to the next page (page 6)
+2023-11-09 11:54:45,296: Go to the next page (page 7)
+2023-11-09 11:54:58,081: Go to the next page (page 8)
+2023-11-09 11:55:10,434: Go to the next page (page 9)
+2023-11-09 11:55:21,708: Item position not found
+2023-11-09 11:55:21,708: Go to the search for the next product (if available)
+2023-11-09 11:55:21,708: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:55:38,670: Item position not found
+2023-11-09 11:55:38,670: Go to the search for the next product (if available)
+2023-11-09 11:55:38,670: Parsing pull bar
+2023-11-09 11:56:01,185: Go to the next page (page 2)
+2023-11-09 11:56:11,707: Item position found: 75
+2023-11-09 11:56:11,707: Go to the search for the next product (if available)
+2023-11-09 11:56:11,707: Item position not found
+2023-11-09 11:56:11,707: Go to the search for the next product (if available)
+2023-11-09 11:56:11,708: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:56:12,819: Parsing sony headphones
+2023-11-09 11:56:34,887: Go to the next page (page 2)
+2023-11-09 11:56:47,560: Go to the next page (page 3)
+2023-11-09 11:56:59,876: Go to the next page (page 4)
+2023-11-09 11:57:12,798: Go to the next page (page 5)
+2023-11-09 11:57:25,232: Go to the next page (page 6)
+2023-11-09 11:57:37,911: Go to the next page (page 7)
+2023-11-09 11:57:50,412: Go to the next page (page 8)
+2023-11-09 11:58:03,354: Go to the next page (page 9)
+2023-11-09 11:58:14,525: Item position not found
+2023-11-09 11:58:14,525: Go to the search for the next product (if available)
+2023-11-09 11:58:14,525: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 11:58:33,624: Item position not found
+2023-11-09 11:58:33,624: Go to the search for the next product (if available)
+2023-11-09 11:58:33,624: Parsing pull bar
+2023-11-09 11:58:56,197: Go to the next page (page 2)
+2023-11-09 11:59:07,119: Item position found: 75
+2023-11-09 11:59:07,119: Go to the search for the next product (if available)
+2023-11-09 11:59:07,119: Item position not found
+2023-11-09 11:59:07,119: Go to the search for the next product (if available)
+2023-11-09 11:59:07,120: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 11:59:07,908: Parsing sony headphones
+2023-11-09 11:59:30,863: Go to the next page (page 2)
+2023-11-09 11:59:44,537: Go to the next page (page 3)
+2023-11-09 11:59:57,740: Go to the next page (page 4)
+2023-11-09 12:00:10,234: Go to the next page (page 5)
+2023-11-09 12:00:22,996: Go to the next page (page 6)
+2023-11-09 12:00:35,317: Go to the next page (page 7)
+2023-11-09 12:00:48,620: Go to the next page (page 8)
+2023-11-09 12:01:01,688: Go to the next page (page 9)
+2023-11-09 12:01:13,532: Item position not found
+2023-11-09 12:01:13,532: Go to the search for the next product (if available)
+2023-11-09 12:01:13,532: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:01:31,436: Item position not found
+2023-11-09 12:01:31,436: Go to the search for the next product (if available)
+2023-11-09 12:01:31,436: Parsing pull bar
+2023-11-09 12:01:54,681: Go to the next page (page 2)
+2023-11-09 12:02:05,531: Item position found: 75
+2023-11-09 12:02:05,531: Go to the search for the next product (if available)
+2023-11-09 12:02:05,531: Item position not found
+2023-11-09 12:02:05,531: Go to the search for the next product (if available)
+2023-11-09 12:02:05,532: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 12:02:06,482: Parsing sony headphones
+2023-11-09 12:02:30,099: Go to the next page (page 2)
+2023-11-09 12:02:43,019: Go to the next page (page 3)
+2023-11-09 12:02:56,186: Go to the next page (page 4)
+2023-11-09 12:03:09,022: Go to the next page (page 5)
+2023-11-09 12:03:21,312: Go to the next page (page 6)
+2023-11-09 12:03:34,603: Go to the next page (page 7)
+2023-11-09 12:03:47,672: Go to the next page (page 8)
+2023-11-09 12:04:00,833: Go to the next page (page 9)
+2023-11-09 12:04:12,966: Item position not found
+2023-11-09 12:04:12,966: Go to the search for the next product (if available)
+2023-11-09 12:04:12,966: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:04:31,743: Item position not found
+2023-11-09 12:04:31,743: Go to the search for the next product (if available)
+2023-11-09 12:04:31,744: Parsing pull bar
+2023-11-09 12:04:53,273: Go to the next page (page 2)
+2023-11-09 12:05:03,816: Item position found: 75
+2023-11-09 12:05:03,816: Go to the search for the next product (if available)
+2023-11-09 12:05:03,816: Item position not found
+2023-11-09 12:05:03,816: Go to the search for the next product (if available)
+2023-11-09 12:05:03,817: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 12:05:04,676: Parsing sony headphones
+2023-11-09 12:05:27,711: Go to the next page (page 2)
+2023-11-09 12:05:40,165: Go to the next page (page 3)
+2023-11-09 12:05:52,417: Go to the next page (page 4)
+2023-11-09 12:06:04,988: Go to the next page (page 5)
+2023-11-09 12:06:17,458: Go to the next page (page 6)
+2023-11-09 12:06:30,146: Go to the next page (page 7)
+2023-11-09 12:06:43,025: Go to the next page (page 8)
+2023-11-09 12:06:56,037: Go to the next page (page 9)
+2023-11-09 12:07:07,779: Item position not found
+2023-11-09 12:07:07,779: Go to the search for the next product (if available)
+2023-11-09 12:07:07,779: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:07:21,827: Item position not found
+2023-11-09 12:07:21,827: Go to the search for the next product (if available)
+2023-11-09 12:07:21,827: Parsing pull bar
+2023-11-09 12:07:43,352: Go to the next page (page 2)
+2023-11-09 12:07:53,430: Item position found: 75
+2023-11-09 12:07:53,430: Go to the search for the next product (if available)
+2023-11-09 12:07:53,430: Item position not found
+2023-11-09 12:07:53,430: Go to the search for the next product (if available)
+2023-11-09 12:07:53,431: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 12:07:54,409: Parsing sony headphones
+2023-11-09 12:08:15,651: Go to the next page (page 2)
+2023-11-09 12:08:27,589: Go to the next page (page 3)
+2023-11-09 12:08:39,975: Go to the next page (page 4)
+2023-11-09 12:08:52,215: Go to the next page (page 5)
+2023-11-09 12:09:04,487: Go to the next page (page 6)
+2023-11-09 12:09:16,869: Go to the next page (page 7)
+2023-11-09 12:09:28,424: Go to the next page (page 8)
+2023-11-09 12:09:40,035: Go to the next page (page 9)
+2023-11-09 12:09:51,376: Item position not found
+2023-11-09 12:09:51,376: Go to the search for the next product (if available)
+2023-11-09 12:09:51,376: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:10:04,807: Item position not found
+2023-11-09 12:10:04,807: Go to the search for the next product (if available)
+2023-11-09 12:10:04,807: Parsing pull bar
+2023-11-09 12:10:25,201: Go to the next page (page 2)
+2023-11-09 12:10:35,174: Item position found: 75
+2023-11-09 12:10:35,174: Go to the search for the next product (if available)
+2023-11-09 12:10:35,174: Item position not found
+2023-11-09 12:10:35,174: Go to the search for the next product (if available)
+2023-11-09 12:10:35,176: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 12:10:36,018: Parsing sony headphones
+2023-11-09 12:10:57,670: Go to the next page (page 2)
+2023-11-09 12:11:09,771: Go to the next page (page 3)
+2023-11-09 12:11:21,213: Go to the next page (page 4)
+2023-11-09 12:11:33,088: Go to the next page (page 5)
+2023-11-09 12:11:44,975: Go to the next page (page 6)
+2023-11-09 12:11:56,653: Go to the next page (page 7)
+2023-11-09 12:12:08,820: Go to the next page (page 8)
+2023-11-09 12:12:20,996: Go to the next page (page 9)
+2023-11-09 12:12:32,106: Item position not found
+2023-11-09 12:12:32,106: Go to the search for the next product (if available)
+2023-11-09 12:12:32,106: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:12:45,015: Item position not found
+2023-11-09 12:12:45,015: Go to the search for the next product (if available)
+2023-11-09 12:12:45,015: Parsing pull bar
+2023-11-09 12:13:05,523: Go to the next page (page 2)
+2023-11-09 12:13:15,869: Item position found: 75
+2023-11-09 12:13:15,869: Go to the search for the next product (if available)
+2023-11-09 12:13:15,869: Item position not found
+2023-11-09 12:13:15,869: Go to the search for the next product (if available)
+2023-11-09 12:13:15,870: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 12:13:16,869: Parsing sony headphones
+2023-11-09 12:13:37,951: Go to the next page (page 2)
+2023-11-09 12:13:50,225: Go to the next page (page 3)
+2023-11-09 12:14:01,533: Go to the next page (page 4)
+2023-11-09 12:14:13,168: Go to the next page (page 5)
+2023-11-09 12:14:24,544: Go to the next page (page 6)
+2023-11-09 12:14:35,589: Go to the next page (page 7)
+2023-11-09 12:14:47,494: Go to the next page (page 8)
+2023-11-09 12:14:59,412: Go to the next page (page 9)
+2023-11-09 12:15:10,097: Item position not found
+2023-11-09 12:15:10,098: Go to the search for the next product (if available)
+2023-11-09 12:15:10,098: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:15:22,716: Item position not found
+2023-11-09 12:15:22,716: Go to the search for the next product (if available)
+2023-11-09 12:15:22,716: Parsing pull bar
+2023-11-09 12:15:41,047: Go to the next page (page 2)
+2023-11-09 12:15:51,540: Item position found: 75
+2023-11-09 12:15:51,540: Go to the search for the next product (if available)
+2023-11-09 12:15:51,540: Item position not found
+2023-11-09 12:15:51,540: Go to the search for the next product (if available)
+2023-11-09 12:15:51,542: file_cache is only supported with oauth2client<4.0.0
+2023-11-09 12:15:52,462: Parsing sony headphones
+2023-11-09 12:16:12,179: Go to the next page (page 2)
+2023-11-09 12:16:23,774: Go to the next page (page 3)
+2023-11-09 12:16:35,253: Go to the next page (page 4)
+2023-11-09 12:16:43,252: Message: 
+Stacktrace:
+#0 0x55e902f4d5e3 <unknown>
+#1 0x55e902c100b7 <unknown>
+#2 0x55e902c5df53 <unknown>
+#3 0x55e902c5e051 <unknown>
+#4 0x55e902ca39c4 <unknown>
+#5 0x55e902c84f1d <unknown>
+#6 0x55e902ca0b3d <unknown>
+#7 0x55e902c84cc3 <unknown>
+#8 0x55e902c500e4 <unknown>
+#9 0x55e902c510ae <unknown>
+#10 0x55e902f13ce1 <unknown>
+#11 0x55e902f17b7e <unknown>
+#12 0x55e902f014b5 <unknown>
+#13 0x55e902f187d6 <unknown>
+#14 0x55e902ee4dbf <unknown>
+#15 0x55e902f3b748 <unknown>
+#16 0x55e902f3b917 <unknown>
+#17 0x55e902f4c773 <unknown>
+#18 0x7f6da9694ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main_test.py", line 94, in <module>
+    footer = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR,
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55e902f4d5e3 <unknown>
+#1 0x55e902c100b7 <unknown>
+#2 0x55e902c5df53 <unknown>
+#3 0x55e902c5e051 <unknown>
+#4 0x55e902ca39c4 <unknown>
+#5 0x55e902c84f1d <unknown>
+#6 0x55e902ca0b3d <unknown>
+#7 0x55e902c84cc3 <unknown>
+#8 0x55e902c500e4 <unknown>
+#9 0x55e902c510ae <unknown>
+#10 0x55e902f13ce1 <unknown>
+#11 0x55e902f17b7e <unknown>
+#12 0x55e902f014b5 <unknown>
+#13 0x55e902f187d6 <unknown>
+#14 0x55e902ee4dbf <unknown>
+#15 0x55e902f3b748 <unknown>
+#16 0x55e902f3b917 <unknown>
+#17 0x55e902f4c773 <unknown>
+#18 0x7f6da9694ac3 <unknown>
+
+2023-11-09 12:16:43,256: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 12:16:48,458: Message: 
+Stacktrace:
+#0 0x55e902f4d5e3 <unknown>
+#1 0x55e902c100b7 <unknown>
+#2 0x55e902c5df53 <unknown>
+#3 0x55e902c5e051 <unknown>
+#4 0x55e902ca39c4 <unknown>
+#5 0x55e902c84f1d <unknown>
+#6 0x55e902ca0b3d <unknown>
+#7 0x55e902c84cc3 <unknown>
+#8 0x55e902c500e4 <unknown>
+#9 0x55e902c510ae <unknown>
+#10 0x55e902f13ce1 <unknown>
+#11 0x55e902f17b7e <unknown>
+#12 0x55e902f014b5 <unknown>
+#13 0x55e902f187d6 <unknown>
+#14 0x55e902ee4dbf <unknown>
+#15 0x55e902f3b748 <unknown>
+#16 0x55e902f3b917 <unknown>
+#17 0x55e902f4c773 <unknown>
+#18 0x7f6da9694ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main_test.py", line 71, in <module>
+    until(EC.element_to_be_clickable((By.CSS_SELECTOR,
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55e902f4d5e3 <unknown>
+#1 0x55e902c100b7 <unknown>
+#2 0x55e902c5df53 <unknown>
+#3 0x55e902c5e051 <unknown>
+#4 0x55e902ca39c4 <unknown>
+#5 0x55e902c84f1d <unknown>
+#6 0x55e902ca0b3d <unknown>
+#7 0x55e902c84cc3 <unknown>
+#8 0x55e902c500e4 <unknown>
+#9 0x55e902c510ae <unknown>
+#10 0x55e902f13ce1 <unknown>
+#11 0x55e902f17b7e <unknown>
+#12 0x55e902f014b5 <unknown>
+#13 0x55e902f187d6 <unknown>
+#14 0x55e902ee4dbf <unknown>
+#15 0x55e902f3b748 <unknown>
+#16 0x55e902f3b917 <unknown>
+#17 0x55e902f4c773 <unknown>
+#18 0x7f6da9694ac3 <unknown>
+
+2023-11-09 12:16:48,458: Completion of work
+2023-11-09 13:10:01,855: Launching the parser
+2023-11-09 13:10:06,799: Start of parsing
+2023-11-09 13:10:06,799: Parsing sony headphones
+2023-11-09 13:10:20,251: Go to the next page (page 2)
+2023-11-09 13:10:29,248: Go to the next page (page 3)
+2023-11-09 13:10:36,914: Message: 
+Stacktrace:
+#0 0x55740aee25e3 <unknown>
+#1 0x55740aba50b7 <unknown>
+#2 0x55740abf2f53 <unknown>
+#3 0x55740abf3051 <unknown>
+#4 0x55740ac389c4 <unknown>
+#5 0x55740ac19f1d <unknown>
+#6 0x55740ac35b3d <unknown>
+#7 0x55740ac19cc3 <unknown>
+#8 0x55740abe50e4 <unknown>
+#9 0x55740abe60ae <unknown>
+#10 0x55740aea8ce1 <unknown>
+#11 0x55740aeacb7e <unknown>
+#12 0x55740ae964b5 <unknown>
+#13 0x55740aead7d6 <unknown>
+#14 0x55740ae79dbf <unknown>
+#15 0x55740aed0748 <unknown>
+#16 0x55740aed0917 <unknown>
+#17 0x55740aee1773 <unknown>
+#18 0x7f0bbf894ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main_cron.py", line 93, in <module>
+    footer = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR,
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55740aee25e3 <unknown>
+#1 0x55740aba50b7 <unknown>
+#2 0x55740abf2f53 <unknown>
+#3 0x55740abf3051 <unknown>
+#4 0x55740ac389c4 <unknown>
+#5 0x55740ac19f1d <unknown>
+#6 0x55740ac35b3d <unknown>
+#7 0x55740ac19cc3 <unknown>
+#8 0x55740abe50e4 <unknown>
+#9 0x55740abe60ae <unknown>
+#10 0x55740aea8ce1 <unknown>
+#11 0x55740aeacb7e <unknown>
+#12 0x55740ae964b5 <unknown>
+#13 0x55740aead7d6 <unknown>
+#14 0x55740ae79dbf <unknown>
+#15 0x55740aed0748 <unknown>
+#16 0x55740aed0917 <unknown>
+#17 0x55740aee1773 <unknown>
+#18 0x7f0bbf894ac3 <unknown>
+
+2023-11-09 13:10:36,916: Parsing sadasdasdad hgfhfghf dfggdfgr
+2023-11-09 13:10:42,157: Message: 
+Stacktrace:
+#0 0x55740aee25e3 <unknown>
+#1 0x55740aba50b7 <unknown>
+#2 0x55740abf2f53 <unknown>
+#3 0x55740abf3051 <unknown>
+#4 0x55740ac389c4 <unknown>
+#5 0x55740ac19f1d <unknown>
+#6 0x55740ac35b3d <unknown>
+#7 0x55740ac19cc3 <unknown>
+#8 0x55740abe50e4 <unknown>
+#9 0x55740abe60ae <unknown>
+#10 0x55740aea8ce1 <unknown>
+#11 0x55740aeacb7e <unknown>
+#12 0x55740ae964b5 <unknown>
+#13 0x55740aead7d6 <unknown>
+#14 0x55740ae79dbf <unknown>
+#15 0x55740aed0748 <unknown>
+#16 0x55740aed0917 <unknown>
+#17 0x55740aee1773 <unknown>
+#18 0x7f0bbf894ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main_cron.py", line 70, in <module>
+    until(EC.element_to_be_clickable((By.CSS_SELECTOR,
+  File "/home/mikhail/Desktop/pars_shop/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55740aee25e3 <unknown>
+#1 0x55740aba50b7 <unknown>
+#2 0x55740abf2f53 <unknown>
+#3 0x55740abf3051 <unknown>
+#4 0x55740ac389c4 <unknown>
+#5 0x55740ac19f1d <unknown>
+#6 0x55740ac35b3d <unknown>
+#7 0x55740ac19cc3 <unknown>
+#8 0x55740abe50e4 <unknown>
+#9 0x55740abe60ae <unknown>
+#10 0x55740aea8ce1 <unknown>
+#11 0x55740aeacb7e <unknown>
+#12 0x55740ae964b5 <unknown>
+#13 0x55740aead7d6 <unknown>
+#14 0x55740ae79dbf <unknown>
+#15 0x55740aed0748 <unknown>
+#16 0x55740aed0917 <unknown>
+#17 0x55740aee1773 <unknown>
+#18 0x7f0bbf894ac3 <unknown>
+
+2023-11-09 13:10:42,158: Completion of work
+2023-11-09 13:22:01,388: Launching the parser
+2023-11-09 13:22:10,455: Start of parsing
+2023-11-09 13:22:10,455: Parsing sony headphones
+2023-11-09 13:22:15,488: Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very
+2023-11-09 13:22:15,488: 
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main_cron.py", line 80, in <module>
+    check_verification(driver)
+  File "/home/mikhail/Desktop/pars_shop/main_cron.py", line 24, in check_verification
+    raise Exception
+Exception
+2023-11-09 13:22:15,488: Completion of work
+2023-11-09 13:32:01,711: Launching the parser
+2023-11-09 13:32:09,551: Start of parsing
+2023-11-09 13:32:09,551: Parsing sony headphones
+2023-11-09 13:32:13,967: Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very Need Very
+2023-11-09 13:32:13,967: 
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/pars_shop/main_cron.py", line 80, in <module>
+    check_verification(driver)
+  File "/home/mikhail/Desktop/pars_shop/main_cron.py", line 24, in check_verification
+    raise Exception
+Exception
+2023-11-09 13:32:13,967: Completion of work
